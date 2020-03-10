@@ -1,2 +1,158 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+
+C:\Users\fr042454
+? cd github
+
+C:\Users\fr042454\GitHub
+? cd
+C:\Users\fr042454\GitHub
+
+C:\Users\fr042454\GitHub
+? ls
+testetdd/
+
+C:\Users\fr042454\GitHub
+? cd testetdd
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin)
+? npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (testetdd)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to C:\Users\fr042454\GitHub\testetdd\package.json:
+
+{
+  "name": "testetdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this OK? (yes)
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+?
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? npm install --global mocha
+C:\Program Files\nodejs\mocha -> C:\Program Files\nodejs\node_modules\mocha\bin\mocha
+C:\Program Files\nodejs\_mocha -> C:\Program Files\nodejs\node_modules\mocha\bin\_mocha
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.1 (node_modules\mocha\node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ mocha@7.1.0
+added 106 packages from 59 contributors in 11.059s
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? npm install --save-dev mocha
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.1 (node_modules\chokidar\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN testetdd@1.0.0 No description
+npm WARN testetdd@1.0.0 No repository field.
+
++ mocha@7.1.0
+added 106 packages from 59 contributors and audited 205 packages in 8.37s
+found 0 vulnerabilities
+
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? npm install -g chai
++ chai@4.2.0
+added 7 packages from 20 contributors in 1.024s
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? npm install --save-dev chai
+npm WARN testetdd@1.0.0 No description
+npm WARN testetdd@1.0.0 No repository field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ chai@4.2.0
+added 7 packages from 20 contributors and audited 213 packages in 2.054s
+found 0 vulnerabilities
+
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? code .
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? mocha
+Error: No test files found: "test"
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? mkdir teste
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? mkdir aplicacao
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? touch teste meuteste.spec.js
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? mocha
+Error: No test files found: "test"
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? mocha
+
+
+  pagamento()
+    - paga-se 5% de juros até 30 dias de atraso
+    - paga-se 10% de juros até 30 dias de atraso
+    - paga-se 15% de juros até 30 dias de atraso
+
+
+  0 passing (13ms)
+  3 pending
+
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? mocha
+
+
+  pagamento()
+    - paga-se 5% de juros até 30 dias de atraso
+    - paga-se 10% de juros até 60 dias de atraso
+    - paga-se 15% de juros até 120 dias de atraso
+
+
+  0 passing (13ms)
+  3 pending
+
+
+C:\Users\fr042454\GitHub\testetdd (master -> origin) (testetdd@1.0.0)
+? mocha
+
+
+  pagamento()
+    - paga-se 5% de juros até 30 dias de atraso
+    - paga-se 10% de juros até 60 dias de atraso
+    - paga-se 15% de juros até 120 dias de atraso
+
+
+  0 passing (14ms)
+  3 pending
